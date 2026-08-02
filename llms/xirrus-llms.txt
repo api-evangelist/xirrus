@@ -1,0 +1,18 @@
+# Xirrus
+
+> Xirrus was an enterprise Wi-Fi company making high-density wireless access points and arrays managed through the Xirrus Management System (XMS). Backed by Canaan Partners, it was acquired by Riverbed Technology in April 2017 and sold to Cambium Networks in 2019. The brand has been absorbed into Cambium Networks' enterprise Wi-Fi portfolio and no independent Xirrus API surface remains; xirrus.com redirects to cambiumnetworks.com.
+
+## Company
+
+- [Xirrus at Cambium Networks](https://www.cambiumnetworks.com/xirrus/): Where xirrus.com now redirects; Cambium's enterprise Wi-Fi portfolio absorbed the Xirrus product line.
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/xirrus/refs/heads/main/apis.yml): Machine-readable profile of this company in the API Evangelist network.
+
+## Legacy API surface
+
+- [fredbradley/xirrusapi](https://packagist.org/packages/fredbradley/xirrusapi): Community PHP client for the legacy Xirrus XMS Management API (not first-party).
+- [twa16/go-xirrus-switch](https://github.com/twa16/go-xirrus-switch): Community Go library for Xirrus switches over telnet (not first-party).
+
+## Notes
+
+- No first-party OpenAPI, SDKs, developer portal, or documentation are published under the Xirrus brand today.
+- Successor management platform: Cambium Networks cnMaestro (see the cambium-networks profile where available).

@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: https://packagist.org/search.json?q=xirrus + GitHub repository search
+notes: Xirrus published no first-party client libraries on the public registries
+  (npm, PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist, crates.io were
+  probed). The packages below are community-built clients for the legacy Xirrus XMS
+  management API and Xirrus switches; the brand was absorbed into Cambium Networks
+  in 2019 and no official SDKs remain.
+packages:
+- language: php
+  registry: packagist
+  name: fredbradley/xirrusapi
+  url: https://packagist.org/packages/fredbradley/xirrusapi
+  repository: https://github.com/fredbradley/XirrusApi
+  install: composer require fredbradley/xirrusapi
+  description: PHP API client for the Xirrus XMS Management API (community)
+  official: false
+- language: go
+  registry: github
+  name: twa16/go-xirrus-switch
+  url: https://github.com/twa16/go-xirrus-switch
+  install: go get github.com/twa16/go-xirrus-switch
+  description: Go library for interacting with Xirrus switches over telnet (community)
+  official: false

@@ -1,7 +1,25 @@
 aid: xirrus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xirrus.png
 name: Xirrus
-description: Xirrus is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Xirrus was an enterprise Wi-Fi company that made high-density wireless
+  access points and arrays managed through the Xirrus Management System (XMS), which
+  exposed a management API that community client libraries were built against. Backed
+  by Canaan Partners, Xirrus was acquired by Riverbed Technology in April 2017 to
+  power cloud-managed Wi-Fi in SteelConnect, and Riverbed sold the Xirrus Wi-Fi business
+  to Cambium Networks in 2019. The Xirrus brand has since been absorbed into Cambium
+  Networks' enterprise Wi-Fi portfolio, and xirrus.com now redirects to cambiumnetworks.com,
+  leaving no independent Xirrus API surface.
 url: https://raw.githubusercontent.com/api-evangelist/xirrus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,40 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquisition-history:
+- acquirer: riverbed-technology
+  year: 2017
+- acquirer: cambium-networks
+  year: 2019
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Wi-Fi
+- Wireless
+- Networking
+- Access Points
+- Network Management
+- Enterprise
 apis: []
+common:
+- type: Website
+  url: https://www.xirrus.com/
+- type: Packages
+  url: packages/xirrus-packages.yml
+- type: DomainSecurity
+  url: security/xirrus-domain-security.yml
+- type: LLMsTxt
+  url: llms/xirrus-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

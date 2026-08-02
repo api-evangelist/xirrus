@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+host: https://www.xirrus.com
+notes: xirrus.com blanket-redirects every path (HTTP 302) to https://www.cambiumnetworks.com/xirrus/
+  following the 2019 acquisition of the Xirrus Wi-Fi business by Cambium Networks.
+  No well-known discovery documents are published on the Xirrus domain.
+documents:
+- path: /.well-known/security.txt
+  status: 302
+  redirect: https://www.cambiumnetworks.com/xirrus/
+- path: /.well-known/openid-configuration
+  status: 302
+  redirect: https://www.cambiumnetworks.com/xirrus/
+- path: /.well-known/oauth-authorization-server
+  status: 302
+  redirect: https://www.cambiumnetworks.com/xirrus/
+- path: /.well-known/api-catalog
+  status: 302
+  redirect: https://www.cambiumnetworks.com/xirrus/
+- path: /.well-known/ai-plugin.json
+  status: 302
+  redirect: https://www.cambiumnetworks.com/xirrus/
+- path: /llms.txt
+  status: 302
+  redirect: https://www.cambiumnetworks.com/xirrus/
