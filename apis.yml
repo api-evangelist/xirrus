@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.xirrus.com/', status: 302, note: 'declared website redirects to https://www.cambiumnetworks.com/products/wifi/ — a different registrable domain (xirrus.com -> cambiumnetworks.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xirrus.png
 name: Xirrus
 description: Xirrus was an enterprise Wi-Fi company that made high-density wireless
